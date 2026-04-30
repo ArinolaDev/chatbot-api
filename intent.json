@@ -1,0 +1,54 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hello", "hi", "hey", "good morning", "good afternoon", "is anyone there?", "yo"],
+      "responses": ["Hello! Welcome to Arinola E-Commerce Store. How can I help you today?"]
+    },
+    {
+      "tag": "products",
+      "patterns": ["what products do you sell?", "do you have items?", "what do you offer?", "show me your products"],
+      "responses": ["We sell high-quality gadgets, fashion items, electronics, accessories, and home products."]
+    },
+    {
+      "tag": "availability",
+      "patterns": ["is this product available?", "do you have iPhone 12?", "is it in stock?", "is this item available?"],
+      "responses": ["Yes, most products are in stock. If you want me to check a specific item, just tell me the product name."]
+    },
+    {
+      "tag": "pricing",
+      "patterns": ["how much is it?", "price of this item", "what is the cost?", "how much does it cost?"],
+      "responses": ["Prices vary based on the product. Please tell me the product name and I’ll give you the price."]
+    },
+    {
+      "tag": "order_tracking",
+      "patterns": ["track my order", "where is my package?", "order status", "my delivery", "track order"],
+      "responses": ["Sure! Please provide your Order ID so I can check your delivery status."]
+    },
+    {
+      "tag": "delivery",
+      "patterns": ["how long is delivery?", "delivery time", "do you deliver?", "shipping details"],
+      "responses": ["Delivery usually takes 1–3 days within Nigeria. Express delivery is also available."]
+    },
+    {
+      "tag": "refund",
+      "patterns": ["refund policy", "can I return this?", "how do I get my money back?", "return item"],
+      "responses": ["We offer a 7-day return policy for undamaged products. Refunds are processed within 24–72 hours."]
+    },
+    {
+      "tag": "payment",
+      "patterns": ["payment methods", "how can I pay?", "do you accept transfer?", "do you accept card?"],
+      "responses": ["We accept bank transfer, debit cards, Paystack, and cash on delivery for selected areas."]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["how do I contact support?", "customer care number", "your phone number"],
+      "responses": ["You can contact our support at +2347056329085 or email arinolasmart@gmail.com"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you", "thanks"],
+      "responses": ["Thank you for visiting Arinola E-Commerce Store! Have a great day"]
+    }
+  ]
+}
